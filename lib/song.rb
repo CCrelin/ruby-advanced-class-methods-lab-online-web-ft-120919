@@ -48,5 +48,6 @@ class Song
     self.new_from_filename(filename).tap {|song| song.save }
   end 
   
-  
+  def self.destroy_all
+  end
 end
